@@ -20,7 +20,6 @@ public class ElectricPokemon extends PokemonSuper{
     }
 
 
-
 //    Instance Methods
     public void electricShockwave(){
         System.out.println(getName() + " used a lot of electricity to create a huge electric shockwave.\nThe energy that erupted, loaded the batteries! ");

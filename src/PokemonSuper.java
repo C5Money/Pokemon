@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -100,7 +99,6 @@ public abstract class PokemonSuper {
 
 
 //    Instance Methods
-
     public abstract void speaks();
 
     public abstract void pokeScanner();
@@ -138,8 +136,6 @@ public abstract class PokemonSuper {
         }
     }
 
-
-
     public void getPokeDex(){
         System.out.println("POKEDEX - How to handle my Pokemon.");
         System.out.println("1. getAllStats(): Get all the data of your Pokemon.");
@@ -148,11 +144,4 @@ public abstract class PokemonSuper {
         System.out.println(" - When fed, your Pokemon will increase 1 HP. \nFeed multiple times for surprise.");
         System.out.println("To be continued...");
     }
-
 }
-
-
-//    Instance Variables
-//    Constructor
-//    Getters & Setters
-//    Instance Methods

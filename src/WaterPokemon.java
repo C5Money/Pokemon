@@ -9,6 +9,7 @@ public class WaterPokemon extends PokemonSuper{
         this.hydrationLevel = hydrationLevel;
     }
 
+
 //    Getters & Setters
     public int getHydrationLevel() {
         return hydrationLevel;
@@ -17,6 +18,7 @@ public class WaterPokemon extends PokemonSuper{
     public void setHydrationLevel(int hydrationLevel) {
         this.hydrationLevel = hydrationLevel;
     }
+
 
 //    Instance Methods
     public void rainDance(){
