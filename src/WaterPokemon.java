@@ -41,7 +41,7 @@ public class WaterPokemon extends PokemonSuper{
 
         } else {
             System.out.println("POKESCANNER:");
-            System.out.println("Name: " + getName() + "\nLevel: " + getLevel() + "\nHp: " + getHp() + "\nXp: " + getXp() + "\nDefence: " + getDefence() + "\nHydration level: " + getHydrationLevel() + " %");
+            System.out.println("Name: " + getName() + "\nLevel: " + getLevel() + "\nHp: " + getHp() + "\nXp: " + getXp() + "\nDefence: " + getDefence() + "\nAttack: " + getAttack() + "\nHydration level: " + getHydrationLevel() + " %");
         }
     }
 

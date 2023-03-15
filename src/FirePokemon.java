@@ -52,7 +52,7 @@ public class FirePokemon extends PokemonSuper {
     @Override
     public void pokeScanner() {
         System.out.println("POKESCANNER:");
-        System.out.println("Name: Super " + getName() + "\nLevel: " + (getLevel() +1) + "\nHp: " + (getHp() + 1) + "\nXp: " + (getXp() + 1) + "\nDefence: " + (getDefence() + 1) + "\nAttack: " + (getAttack() + 1) + "\nSpecial: " + getSpecial());
+        System.out.println("Name: " + getName() + "\nLevel: " + getLevel() + "\nHp: " + getHp() + "\nXp: " + getXp() + "\nDefence: " + getDefence() + "\nAttack: " + getAttack() + "\nSpecial: " + getSpecial());
     }
 
     @Override
